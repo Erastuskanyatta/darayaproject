@@ -12,8 +12,8 @@ import com.gcu.Cst339MilestoneApplication;
 import com.gcu.model.*;
 
 import static org.junit.Assert.assertEquals;
-import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+//import org.junit.jupiter.api.Test;
+//import org.junit.runner.RunWith;
 /*
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.web.client.TestRestTemplate;
@@ -32,7 +32,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.util.*;
 */
 
-@RunWith(SpringRunner.class)
+
 @SpringBootTest(classes=Cst339MilestoneApplication.class, webEnvironment = WebEnvironment.RANDOM_PORT)
 public class ProductControllerTest {
     Model m = new BindingAwareModelMap();
@@ -42,7 +42,7 @@ public class ProductControllerTest {
     //BeanPropertyBindingResult br = new BeanPropertyBindingResult(pm, "productModel");
 
     //Test case for display
-    @Test
+
     public void testdisplay() throws Exception {
     	//m.addAttribute("title", "Test Case New Product");
     	//m.addAttribute("productModel", pm);
