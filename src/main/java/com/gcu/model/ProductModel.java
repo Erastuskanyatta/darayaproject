@@ -18,6 +18,7 @@ public class ProductModel {
 //	@Min(value=1, message="Id must be 1 character")
 	@Id
 	@GeneratedValue
+	@Column(name = "productid")
 	public int id;
 	
 	@Size(min=1, max=32, message="Product name must be between 1 and 32 characters")

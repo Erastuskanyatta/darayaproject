@@ -18,6 +18,7 @@ public class UserRegistrationModel {
 	//The properties that identifies a user.
 	@Id
 	@GeneratedValue
+	@Column(name = "userregistrationid")
 	public int userId;
 	
 	@NotNull(message="Username is a required field")

@@ -15,6 +15,7 @@ public class UserLoginModel {
 	//The properties used for users to log in.
 	@Id
 	@GeneratedValue
+	@Column(name = "userid")
 	public int userId;
 	
 	@NotNull(message="Username is a required field")
